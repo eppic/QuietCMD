@@ -18,3 +18,9 @@ It is located under: `HKEY_CURRENT_USER\Software\Microsoft\Command Processor`
  4. Add ` & "%APPDATA%\QuietCMD\init.cmd"` to the end of the key data
  5. Run `QC-No-Reg.bat`
  6. Finished
+
+## Uninstall
+ 1. Delete %APPDATA%\QuietCMD
+ 2. Locate `HKEY_CURRENT_USER\Software\Microsoft\Command Processor`
+ 3. Delete the `AutoRun` Key
+ 4. Finished
