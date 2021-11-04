@@ -1,7 +1,7 @@
 # QuietCMD
 Mute Windows Copyright Information on CMD.  
 
-This Script hides the copyright information everytime cmd.exe starts by setting CMD's AutoRun to "init.cmd" which contains a "cls" command.  
+This Script hides the copyright information everytime `cmd.exe` starts by setting CMD's AutoRun to `init.cmd` which contains a `cls` command.  
 
 ## Troubleshooting
 If something went wrong, delete the `AutoRun` Key in the Registry.  
@@ -13,8 +13,8 @@ It is located under: `HKEY_CURRENT_USER\Software\Microsoft\Command Processor`
 
 ## Adding QuietCMD without overwriting existing AutoRun entries
  1. Open regedit.exe
- 2. Locate "HKEY_CURRENT_USER\Software\Microsoft\Command Processor"
- 3. Open the "AutoRun" Key
+ 2. Locate `HKEY_CURRENT_USER\Software\Microsoft\Command Processor`
+ 3. Open the `AutoRun` Key
  4. Add ` & "%APPDATA%\QuietCMD\init.cmd"` to the end of the key data
- 5. Run "QC-No-Reg.bat"
+ 5. Run `QC-No-Reg.bat`
  6. Finished
