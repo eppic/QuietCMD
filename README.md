@@ -15,7 +15,7 @@ This Script hides the copyright information everytime `cmd.exe` starts by settin
  6. Finished
 
 ## Uninstall manually
- 1. Delete %APPDATA%\QuietCMD
+ 1. Open regedit.exe
  2. Locate `HKEY_CURRENT_USER\Software\Microsoft\Command Processor`
  3. Delete the `AutoRun` Key
  4. Finished
