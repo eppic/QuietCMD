@@ -1,5 +1,5 @@
 @echo off
-title QuietCMD by eppic - No Registry installer
+title QuietCMD by eppic - No Registry Installer
 cls
 echo QuietCMD - Mute Windows Copyright Information on CMD.
 echo.
