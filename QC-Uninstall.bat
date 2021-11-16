@@ -4,6 +4,7 @@ cls
 echo QuietCMD - Mute Windows Copyright Information on CMD.
 echo.
 echo Run this Script to remove QuietCMD from your PC.
+echo (This will delete the CMD Autorun Entry)
 echo.
 pause
 echo. 
