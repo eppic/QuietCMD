@@ -10,12 +10,7 @@ pause
 echo. 
 
 echo Removing Key from Registry...
-reg delete "HKCU\Software\Microsoft\Command Processor" /v AutoRun ^
-  /t REG_EXPAND_SZ /d "%APPDATA%\QuietCMD\init.cmd" /f
-echo.
-
-echo Removing AppData Entry...
-rmdir %APPDATA%\QuietCMD\ /S /Q
+reg delete "HKCU\Software\Microsoft\Command Processor" /v AutoRun 
 echo.
 
 echo Finished.
